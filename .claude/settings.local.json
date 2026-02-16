@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:html.creativegigstf.com)",
+      "Bash(curl -s -L \"https://html.creativegigstf.com/babun/babun/index-4.html\" -o \"c:\\\\Users\\\\oloph\\\\OneDrive\\\\Desktop\\\\Kredilink Website\\\\landing_raw.html\")",
+      "Bash(curl:*)",
+      "Bash(BASE=\"https://html.creativegigstf.com/babun/babun\")",
+      "Bash(for f in images/fav-icon/icon.png images/loader.svg images/lazy.svg images/logo/logo_01.svg images/logo/logo_02.svg images/logo/media_01.png images/logo/media_02.png images/logo/media_03.png images/logo/media_04.png images/logo/media_05.png)",
+      "Bash(do curl -s -L \"$BASE/$f\" -o \"$f\")",
+      "Bash(done)",
+      "Bash(do curl -s -L \"$BASE/fonts/ClashDisplay/fonts/$f.woff2\" -o \"fonts/ClashDisplay/fonts/$f.woff2\")",
+      "Bash(do curl -s -L \"$BASE/fonts/Magnita/fonts/Magnita.$ext\" -o \"fonts/Magnita/fonts/Magnita.$ext\")",
+      "Bash(while read f)",
+      "Bash(do [ ! -f \"$f\" ])",
+      "Bash(echo:*)"
+    ]
+  }
+}
