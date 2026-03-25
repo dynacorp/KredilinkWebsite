@@ -3379,7 +3379,7 @@ iframe {
   background: linear-gradient(
     121.31deg,
     rgba(0, 0, 0, 0) 0.55%,
-    rgba(0, 0, 0, 0.88) 98.35%
+    rgba(0, 50, 50, 1) 98.35%
   );
 }
 .inner-banner-one .hero-heading {
@@ -4311,6 +4311,18 @@ iframe {
   width: 63.64%;
   z-index: -1;
 }
+.text-feature-six .latest {
+  position: absolute;
+  bottom: 0;
+  left: -38px !important;
+  width: 120% !important;
+  z-index: -1;
+}
+@media (max-width: 767px) {
+  .text-feature-six .latest {
+    display: none;
+  }
+}
 .text-feature-six .media-wrapper .screen_01 {
   width: 61.1%;
   bottom: 32%;
@@ -4373,7 +4385,7 @@ iframe {
   opacity: 0.8;
 }
 .text-feature-nine .vertical-text-wrapper .text-list:hover {
-  color: #c5ff4a;
+  color: #00d581;
   opacity: 1;
   mix-blend-mode: normal;
 }
@@ -5332,7 +5344,7 @@ iframe {
   position: absolute;
   width: 100%;
   height: 13px;
-  background: #c5ff4a;
+  background: #00d581;
   left: 0;
   bottom: 19%;
   z-index: -1;
