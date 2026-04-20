@@ -2522,6 +2522,7 @@ iframe {
   .navbar-collapse .logo {
     margin-bottom: 10vh;
     padding-left: 12px;
+    width: 200px;
   }
   .white-vr .navbar-collapse {
     background-color: #0c3a30;
@@ -7629,7 +7630,7 @@ iframe {
   right: 0;
   bottom: 0;
   top: -20%;
-  background: url(../images/assets/bg_04.svg) no-repeat center bottom;
+  background: url(../images/assets/bg_03.svg) no-repeat center bottom;
   background-size: cover;
   z-index: -1;
 }
